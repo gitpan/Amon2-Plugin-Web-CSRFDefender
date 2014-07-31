@@ -58,7 +58,10 @@
    "provides" : {
       "Amon2::Plugin::Web::CSRFDefender" : {
          "file" : "lib/Amon2/Plugin/Web/CSRFDefender.pm",
-         "version" : "7.00"
+         "version" : "7.01"
+      },
+      "Amon2::Plugin::Web::CSRFDefender::Random" : {
+         "file" : "lib/Amon2/Plugin/Web/CSRFDefender/Random.pm"
       }
    },
    "release_status" : "stable",
@@ -72,6 +75,6 @@
          "web" : "https://github.com/tokuhirom/Amon2-Plugin-Web-CSRFDefender"
       }
    },
-   "version" : "7.00",
+   "version" : "7.01",
    "x_authority" : "cpan:TOKUHIROM"
 }
