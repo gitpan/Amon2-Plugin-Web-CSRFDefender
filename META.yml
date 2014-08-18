@@ -28,7 +28,7 @@ no_index:
 provides:
   Amon2::Plugin::Web::CSRFDefender:
     file: lib/Amon2/Plugin/Web/CSRFDefender.pm
-    version: '7.01'
+    version: '7.02'
   Amon2::Plugin::Web::CSRFDefender::Random:
     file: lib/Amon2/Plugin/Web/CSRFDefender/Random.pm
 requires:
@@ -39,5 +39,5 @@ resources:
   bugtracker: https://github.com/tokuhirom/Amon2-Plugin-Web-CSRFDefender/issues
   homepage: https://github.com/tokuhirom/Amon2-Plugin-Web-CSRFDefender
   repository: git://github.com/tokuhirom/Amon2-Plugin-Web-CSRFDefender.git
-version: '7.01'
+version: '7.02'
 x_authority: cpan:TOKUHIROM
